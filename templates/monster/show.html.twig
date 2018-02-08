@@ -1,0 +1,9 @@
+
+{% block body %}
+    {% if monster %}
+        <h1>{{ monster.name }}</h1>
+        <p>{{ monster.type }}</p>
+    {% else %}
+        Pas de données correspondantes.
+    {% endif %}
+{% endblock %}
